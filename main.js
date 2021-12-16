@@ -1,4 +1,2 @@
-
-
-
-const btst = require('bootstrap-loader');
+console.log('Staging environment !');
+console.log('I love Nodemon !');
