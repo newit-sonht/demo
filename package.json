@@ -7,8 +7,7 @@
     "@popperjs/core": "^2.11.0",
     "less": "^4.1.2",
     "lodash": "^4.17.21",
-    "love": "^3.4.1",
-    "thunder-girl": "^1.0.6"
+    "love": "^3.4.1"
   },
   "devDependencies": {
     "bootstrap": "^5.1.3"
