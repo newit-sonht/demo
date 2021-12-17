@@ -5,6 +5,7 @@
   "main": "main.js",
   "dependencies": {
     "@popperjs/core": "^2.11.0",
+    "express": "^4.17.2",
     "less": "^4.1.2",
     "lodash": "^4.17.21",
     "love": "^3.4.1"
