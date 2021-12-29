@@ -41,10 +41,15 @@ function init()
 function preload ()
 {
     this.load.image('crate', 'res/crate.png');
+    this.load.image('background', 'res/back.jpeg');
 }
 
 function create ()
 {
+    // background
+    background = this.add.image(300, 180, 'background');
+    background.setScale(2);
+
     // create key 
     keyUp = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.UP);
     keyDown = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.DOWN);
