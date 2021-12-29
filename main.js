@@ -1,10 +1,15 @@
-// Option 1: Import the entire three.js core library.
-import * as THREE from 'three';
+import Phaser from "phaser";
 
-const scene = new THREE.Scene();
+export default class TitleScreen extends Phaser.Scene 
+{
+    preload()
+    {
 
+    }
 
-// Option 2: Import just the parts you need.
-import { Scene } from 'three';
-
-const scene = new Scene();
+    create()
+    {
+        this.add.text(400, 250, "Hello World");
+        
+    }
+}

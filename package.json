@@ -8,9 +8,7 @@
     "express": "^4.17.2",
     "less": "^4.1.2",
     "lodash": "^4.17.21",
-    "love": "^3.4.1",
-    "pixi.js": "^6.2.0",
-    "three": "^0.135.0",
+    "phaser": "^3.55.2",
     "typescript": "^4.5.4"
   },
   "devDependencies": {
@@ -18,11 +16,12 @@
     "nodemon": "^2.0.15"
   },
   "scripts": {
-    "set-up" : "echo Hell && echo Yellow"
+    "set-up-typescript": "npx tsc && npx tsc -w"
   },
   "keywords": [
     "Fun"
   ],
   "author": "HoangSon",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module"
 }
