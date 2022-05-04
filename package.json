@@ -23,5 +23,5 @@
   ],
   "author": "HoangSon",
   "license": "ISC",
-  "type": "module"
+  "type": "commonjs"
 }

@@ -27,11 +27,11 @@
 
 
 
-// // const http = require('http');
-// // const {readFileSync} = require('fs');
+// const http = require('http');
+const {readFileSync} = require('fs');
 
 // // // get all file
-// // const homePage = readFileSync('index.html');
+const homePage = readFileSync('index.html');
 
 // // // server site
 // // const server = http.createServer((req, res)=>{
